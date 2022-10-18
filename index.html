@@ -1,0 +1,158 @@
+<!-- 
+	Muhateer Muhammad
+	s2019266071
+	Quiz 1 
+	Section V2 
+	Noaman Saleem
+	
+	
+-->
+<html>
+	<head>
+		<title></title>
+	<!-- from style css lecture 18-oct-2022 -->
+	<style>
+		.imgstyle{
+			width : 580px ;
+			height : 120px ; 
+		}
+		form  { display: table;      }
+		p     { display: table-row;  }
+		label { display: table-cell; }
+		input { display: table-cell; }
+		
+	</style>
+	</head>
+<body>
+<center>
+	
+	<h1>Insurance Form</h1>
+	<img class="imgstyle" src="https://businessadmin.uonbi.ac.ke/sites/businessadmin.uonbi.ac.ke/files/2019-11/Insurance.jpg" />
+	<!-- breaking the linke to show beautyfull form -->
+	<br><br>
+	
+	<form action="./thankyou.html" method="GET" >
+	<!--01 First Name Here -->
+		<p><label for="firstname">First Name : </label>
+		<input align="left" type="text" id="firstname" name="firstname" required ></input>
+		</p>
+		<br><br>
+	<!--02 Last Name Here -->
+		<p><label for="lastname">Last Name : </label>
+		<input align="right" type="text" id="lastname" name="lastname" required ></input>
+		<br><br>
+		</p>
+	<!--03 Age Here -->
+		<p><label for="age">Age : </label>
+		<input type="number" id="age" name="age" required ></input>
+		</p>
+		<br><br>
+	<!--04 Gender Here -->
+	<p>
+	<label for="gender">Select Gender</label>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Femlae</option>
+            <option value="lgbtq">LGTBQ</option>
+        </select>
+		<br><br>
+		</p>
+	<!--05 Date Of Birth Here -->
+		<p><label for="dob">Date Of Birth : </label>
+		<input type="date" id="dob" name="dob" required ></input>
+		
+		</p><br><br>
+	<!--06 Father Full Name Here -->
+		<p><label for="fathername">Father Full Name : </label>
+		<input type="text" id="fathername" name="fathername" required ></input>
+		<br><br>
+		</p>
+	<!--07 Candicate CNIC Here -->
+		<p><label for="usercnic">Candicate CNIC : </label>
+		<input type="number" id="usercnic" name="usercnic" required ></input>
+		</p><br><br>
+	<!--08 Father CNIC Here -->
+		<p><label for="fcnic">Father CNIC : </label>
+		<input type="number" id="fcnic" name="fcnic" required ></input>
+		<br><br>
+		</p>
+	<!--09 Place Of Birth Here -->
+		<p><label for="pbirth">Place Of Birth : </label>
+		<input type="text" id="pbirth" name="pbirth" required ></input>
+		
+		</p><br><br>
+	<!--10 City Name Here -->
+		<p><label for="city">Select City</label>
+        <select id="city" name="city" required>
+            <option value="lahore">Lahore</option>
+            <option value="islamabad">Islamabad</option>
+            <option value="murree">Murree</option>
+        </select>
+		<br><br>
+		</p>
+	<!--11 State Name Here -->
+		<p><label for="state">Select State</label>
+        <select id="state" name="state" required>
+            <option value="punjab">Punjab</option>
+            <option value="sindh">Sindh</option>
+            <option value="balochistan">Balochistan</option>
+        </select>
+		</p><br><br>
+		
+	<!--12 Country Name Here -->
+		<p><label for="country">Select Country</label>
+        <select id="country" name="country" required>
+            <option value="pakistan">Pakistan</option>
+            <option value="nan">NAN</option>
+        </select>
+		<br><br>
+		</p>
+	<!--13 Candicate Contact Number Here -->
+		<p><label for="cnumber">Candicate Contact Number : </label>
+		<input type="number" id="cnumber" name="cnumber" required ></input>
+		</p><br><br>
+	<!--14 Father Contact Number Here -->
+		<p><label for="fnumber">Father Contact Number : </label>
+		<input type="number" id="fnumber" name="fnumber" required ></input>
+		<br><br>
+		</p>
+	<!--15 Select Father Alive/Dead -->
+		<p><label for="fatheris">Father is: </label>
+		  <select id="fatheris" name="fatheris" required>
+            <option value="alive">Alive</option>
+            <option value="dead">Dead</option>
+        </select>
+		
+		</p><br><br>
+	<!--16 Father Occupation Here -->
+		<p><label for="foccupation">Father Occupation : </label>
+		<input type="text" id="foccupation" name="foccupation" required ></input>
+		<br><br>
+		</p>
+	<!--17 Candicate Profession Here -->
+		<p><label for="cprofession">Candicate Profession : </label>
+		<input type="text" id="cprofession" name="cprofession" required ></input>
+		
+		</p><br><br>
+	<!--18 Candicate Salary Here -->
+		<p><label for="csalary">Candicate Salary : </label>
+		<input type="number" id="csalary" name="csalary" required ></input>
+		<br><br>
+		</p>
+	<!--19 Anual Expenses Here -->
+		<p><label for="anualexpenses"> Anual Expenses : </label>
+		<input type="number" id="anualexpenses" name="anualexpenses" required ></input>
+		</p><br><br>
+	<!--10 Insurance Amount Here -->
+		<p><label for="insuranceamount">Insurance Amount : </label>
+		<input type="number" id="insuranceamount" name="insuranceamount" required ></input>
+		<br><br>
+		</p>
+		<button>Submit</button>
+		
+	</form>
+
+
+</center>
+</body>
+</html>
